@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM LEARNINGS</title>
+    <style>
+       .bg-black{
+        background-color: #212121;
+        color: white;
+       }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+     <h1 id="title" class="headings">DOM LEARNING ON CHAI AUR CODE<span style="display: none;">test text</span></h1>
+     <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fuga.</P>
+     <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</h2>
+     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, unde cumque alias perspiciatis totam earum.</h2>
+     <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, distinctio. Sit odit alias earum iure eaque, officia non saepe. Quae.</h3>
+     <input type="password" name="" id="">
+     <ul>
+        <li class="list-item">One</li>
+        <li class="list-item">Two</li>
+        <li class="list-item">Three</li>
+        <li class="list-item">Four</li>
+     </ul>
+    </div>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body Style="background-color: #212121;  color: white; ">
+    <div class="parent">
+        <div class="day">MONDAY</div>
+        <div class="day">TUESDAY</div>
+        <div class="day">WEDNESDAY</div>
+        <div class="day">THURSDAY</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+
+    // for(let i = 0; i < parent.children; i++){
+    //     console.log(parent.children[i].innerHTML);
+    // }
+    parent.children[1].style.color='orange'
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne);
+    console.log(dayOne.parentElement);
+    console.log(dayOne.nextElementSibling);
+    conssole.log("NODES : ",parent.childNodes);
+</script>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body Style="background-color: #212121;  color: white; ">
+    
+</body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main"
+    //div.id = "myid"
+    div.id = Math.round(Math.randon() * 10 + 1)
+    div.setAttribute('title','generated title')
+    div.style.backgroundColor ='green'
+    div.style.padding="15px"
+    //div.innerText = "DOM MANUPULATION"
+    const addText = document.createTextNode("DOM MANIPULATE")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+</html> -->
+

@@ -1,0 +1,16 @@
+nav{
+    background-color: blanchedalmond;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+nav > a{
+    height: 50px;
+    width: 50px;
+    /*background-color: aqua;*/
+}
+nav > btn{
+    height: 52px;
+    width: 52px;
+    background-color: aqua;
+}
